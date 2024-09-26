@@ -1,0 +1,29 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-size: 1rem;
+}
+#transaction{
+    padding: 10px;
+
+}
+#transaction input,select,button{
+    padding: 10px;
+}
+#add{
+    color: white;
+    background-color: blue;
+}
+table{
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+}
+table tr,th{
+    padding: 5px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}

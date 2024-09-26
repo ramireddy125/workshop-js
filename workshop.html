@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="workshop.css">
+</head>
+<body>
+    <!-- html document -->
+    <div class="container">
+        <h1>Personal finacial manager</h1>
+        <div class="balance">Balance   ₹0.00</div>
+    </div>
+    <form id="transaction">
+
+            <input type="text" placeholder="description" required >
+            <input type="number" placeholder="amount" required >
+            <select name="type" id="">
+                <option value="income">income</option>
+                <option value="expense">expense</option>
+            </select>
+            <button id="add">add transaction</button>
+    </form>
+
+    <h2>Transactions</h2>
+    <table>
+        <tr>
+            <th id="description">description</th>
+            <th id="amount">amount</th>
+            <th id="type">type</th>
+            <th>action</th>
+        </tr>
+    </table>
+
+        
+        
+        
+
+
+
+    <!-- script js file -->
+     <script src="workshop.js"></script>
+</body>
+</html>
